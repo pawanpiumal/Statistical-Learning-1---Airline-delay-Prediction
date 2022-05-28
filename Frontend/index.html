@@ -1,0 +1,202 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airline Delay Prediction</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/index.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <html-include src="header.html"></html-include>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="background: url('assets/images/37191 - Copy.jpg');
+                background-repeat:no-repeat !important; background-size: cover !important; 
+                background-position: center;border-radius: unset;" class="bd-placeholder-img" width="100%"
+                    height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777" />
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption hero-title text-start">
+                        <h1>Tired of waiting in the airport?</h1>
+                        <p>Want to avoid the hassle of waiting in the airport? Try our prediction service and minimize
+                            your inconvenience.</p>
+                        <p><a class="btn btn-lg btn-primary" href="predict.html">Predict</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="background: url('assets/images/HeaderImage-1 - Copy.png');
+                background-repeat:no-repeat !important; background-size: cover !important; 
+                background-position: center;border-radius: unset;" class="bd-placeholder-img" width="100%"
+                    height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777" />
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption hero-title text-start">
+                        <h1>Will your flight be delayed again?</h1>
+                        <p>Want to know if your flight is going to be delayed? Use our prediction service.</p>
+                        <p><a class="btn btn-lg btn-primary" href="predict.html">Predict</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img style="background: url('assets/images/MB-lk-en_uk-Neighbourfreeseats-20210712162634877.jpg');
+                    background-repeat:no-repeat !important; background-size: cover !important; 
+                    background-position: center;border-radius: unset;" class="bd-placeholder-img" width="100%"
+                    height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777" />
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption hero-title text-start">
+                        <h1>Want to plan ahead?</h1>
+                        <p>Use our prediction service to plan ahead and your vatation to the fullest.</var>
+                        </p>
+                        <p><a class="btn btn-lg btn-primary" href="predict.html">Predict</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <div class="container px-4 py-5 hide" id="custom-cards">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col col-4">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                    style="background-image: url('assets/images/1.jpg');background-size: cover;">
+                    <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold">Accurate
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-4">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                    style="background-image: url('assets/images/2.jpg');background-size: cover;">
+                    <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold">Fast
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-4">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                    style="background-image: url('assets/images/3.jpg');background-size: cover;">
+                    <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold">Private
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col col-sm-3">
+                <div class="tile-progress">
+                    <div class="tile-header">
+                        <h3>Accuracy</h3>
+                        <span>&nbsp;</span>
+                    </div>
+                    <div class="tile-progressbar">
+                        <span data-fill="66.5%" style="width: 66.5%;"></span>
+                    </div>
+                    <div class="tile-footer">
+                        <h4>
+                            <span class="pct-counter">66.5</span>%
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-3">
+                <div class="tile-progress ">
+                    <div class="tile-header">
+                        <h3>Precision</h3>
+                        <span>A measure of Quality.</span>
+                    </div>
+                    <div class="tile-progressbar">
+                        <span data-fill="32.2%" style="width: 32.2%;"></span>
+                    </div>
+                    <div class="tile-footer">
+                        <h4>
+                            <span class="pct-counter">32.2</span>%
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-3">
+                <div class="tile-progress">
+                    <div class="tile-header">
+                        <h3>Recall</h3>
+                        <span>A measure of Quantity.</span>
+                    </div>
+                    <div class="tile-progressbar">
+                        <span data-fill="66%" style="width: 66%;"></span>
+                    </div>
+                    <div class="tile-footer">
+                        <h4>
+                            <span class="pct-counter">66</span>%
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-3">
+                <div class="tile-progress tile-green">
+                    <div class="tile-header">
+                        <h3>F1 Score</h3>
+                        <span>&nbsp;</span>
+                    </div>
+                    <div class="tile-progressbar">
+                        <span data-fill="43%" style="width: 43%;"></span>
+                    </div>
+                    <div class="tile-footer">
+                        <h4>
+                            <span class="pct-counter">43</span>%
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <html-include src="footer.html"></html-include>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/showfile.js"></script>
+
+</body>
+
+</html>
